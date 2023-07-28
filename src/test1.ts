@@ -64,3 +64,17 @@ function addNums(...nums: number[]): number {
     return result;
 }
 console.log(addNums(10, 20, 30, 40, 50, 10.5, 10.7, 9.99, +true));
+/*
+what is difference between static typed languages and dynamic typed languages
+1- static typed languages like [c,c++,rust].
+2- detect errors in development or compile time.
+3- when declare variables you can not change data type.
+4- performance and fast is better as checking occure in compile not run time.
+5- there is a static type check in compile time to know data type.
+////////////////////////////////////////////////////////////////////////////////////////////////
+1- dynamic typed languages like [python,javascript,php].
+2- detect errors in run or excutation time.
+3- when declare variables you can change data type.
+4- performance and fast is not better as checking occure in run time.
+5- there is a dynamic type check in run time to know data type.
+*/
